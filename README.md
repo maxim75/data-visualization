@@ -6,7 +6,7 @@ Build container:
 
 Start:
 
-`docker run -p 8899:8888 -v $(pwd):/home/jovyan/work data-visualization`
+`docker run -p 8899:8888 -e JUPYTER_ENABLE_LAB=yes -v $(pwd):/home/jovyan/work data-visualization`
 
 Open in web browser
 
