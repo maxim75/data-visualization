@@ -12,3 +12,5 @@ RUN pip install jupyterlab
 RUN pip install geopandas==0.9.0
 RUN pip install shapely
 RUN pip install contextily
+RUN pip install mapclassify
+RUN pip install pygeos
