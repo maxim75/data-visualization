@@ -1,2 +1,4 @@
 .ipynb_checkpoints
-data/local_only
+notebooks/data/local_only
+env/
+notebooks/images/
